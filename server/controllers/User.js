@@ -1,4 +1,4 @@
-export const update = (req,res, next)=>{
+export const update = async (req,res, next)=>{
     if(req.params.id === req.user.id){
         try {
             const updatedUser = await User.findByIdAndUpdate(req.params.id, {
