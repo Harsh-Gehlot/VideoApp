@@ -4,9 +4,9 @@ import { } from "../controllers/auth.js";
 const router = express.Router();
 
 //CREATE A USER 
-router.post("/signup", )
-//SIGN IN USER
-router.post("/signin", )
+router.post("/signup", signup)
+//SIGN IN USE R
+router.post("/signin", signin)
 
 //GOOGLE AUTH
 router.post("/google", )
